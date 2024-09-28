@@ -104,7 +104,8 @@
 }
 
 .explore-btn{
-background-color: rgb(237, 247, 243);  font-weight: 700;
+background-color: rgb(79, 188, 189);
+  font-weight: 700;
   padding: 0.75rem;
   display: inline;
   width: fit-content;
@@ -112,6 +113,7 @@ background-color: rgb(237, 247, 243);  font-weight: 700;
   margin-top: 1rem;
   border: transparent;
   font-weight: 900;
+  color: white;
 }
 
 .partners{
@@ -170,7 +172,8 @@ background-color: rgb(237, 247, 243);  font-weight: 700;
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  border: solid black 0.5px;
+  border: solid rgb(79, 188, 189) 2.5px;
+  box-shadow:white;
 }
 
 .product-items img{
@@ -183,9 +186,10 @@ background-color: rgb(237, 247, 243);  font-weight: 700;
 
 .product-name{
   text-align: center;
-  background-color: aquamarine;
+  background-color: rgb(79, 188, 189);
   padding: 0.5rem;
   display: inline;
+  color: white;
 }
 
 @media screen and (min-width: 768px) and (max-width:1023px){
