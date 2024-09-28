@@ -7,11 +7,6 @@
   font-family: "Open Sans", sans-serif;
 }
 
-body{
-    /* background-color: rgb(205, 226, 231); */
-
-}
-
 .header{
   display: flex;
   justify-content: space-between;
@@ -75,9 +70,6 @@ body{
   margin-top: 4rem;
 }
 
-.home-image{
- /* justify-content: center; */
-}
 
 
 .home-image img{
