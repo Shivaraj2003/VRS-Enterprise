@@ -120,7 +120,7 @@
   margin: auto;
 }
 
-.products, .services{
+.products, .services, .founders{
   max-width: 90vw;
   margin: auto;
   display: flex;
@@ -158,14 +158,16 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+    border: 2px solid whitesmoke;
+
 }
  
  .product-items:hover{
   background-color: rgb(243, 247, 247);
  }
 .product-items img {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
 }
 
 .product-description {
@@ -200,6 +202,12 @@ color: black;
   padding: 2rem;
   width: 30%;
   text-align: center;
+    border: 2px solid whitesmoke;
+
+}
+.service-item img{
+  height: 150px;
+  width: 150px;
 }
 
 .service-item:hover{
@@ -213,6 +221,61 @@ color: black;
 
 .product-items p{
   text-align: center;
+}
+
+.page-4{
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+
+}
+.founders{
+  width: 90vw;
+  margin-top: 2rem;
+}
+
+.founder-container{
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.founder-item img{
+  height: 150px;
+  width: 150px;
+}
+
+.founder-item {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 2px solid whitesmoke;
+
+ border-radius: 5%;
+}
+
+.founder-item p{
+  text-align: center;
+}
+
+.founder-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+.founder-link{
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
 }
 
 
@@ -278,7 +341,7 @@ color: black;
     padding: 0;
   }
 
-  .product-items,.service-item{
+  .product-items,.service-item, .founder-item{
     width: unset;
     padding: 1rem;
     
