@@ -248,7 +248,7 @@ color: black;
 }
 
 .founder-item {
-  width: 35%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -269,13 +269,13 @@ color: black;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.75rem;
+  gap: 1rem;
 }
 .founder-link{
   margin: 1rem;
   display: flex;
   justify-content: space-around;
-  gap: 1.5rem;
+  gap: 2.5rem;
 }
 
 
